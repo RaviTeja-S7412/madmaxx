@@ -1,0 +1,466 @@
+main .post.journal-new .post_details,
+section .post.journal-new .post_details {
+  position: absolute;
+  right: -20px;
+  bottom: -50px;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+main.journal,
+section.journal {
+  width: 960px;
+  margin: 80px auto;
+  position: relative;
+}
+main.journal.home .post.journal-new,
+section.journal.home .post.journal-new {
+  margin-bottom: 0 !important;
+}
+main.journal.home .post.journal-new:nth-of-type(2),
+section.journal.home .post.journal-new:nth-of-type(2) {
+  margin-right: 140px;
+	
+}
+main.journal.home .post.journal-new:nth-of-type(4),
+section.journal.home .post.journal-new:nth-of-type(4) {
+  margin-right: 140px;
+}
+main.journal.home .post.journal-new:nth-of-type(3),
+section.journal.home .post.journal-new:nth-of-type(3) {
+  margin-top: 160px;
+  margin-right: 0;
+}
+
+    
+
+main.journal h3,
+section.journal h3 {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 0 auto 20px;
+  text-transform: uppercase;
+}
+main.journal.page,
+section.journal.page {
+  padding-top: 140px;
+}
+main.search,
+section.search {
+  padding-top: 80px !important;
+}
+main.search h2,
+section.search h2 {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+main.search h2 span,
+section.search h2 span {
+  color: red;
+}
+main #section_title,
+section #section_title {
+  position: absolute;
+  right: 20px;
+  width: 400px;
+}
+main #section_title h2,
+section #section_title h2 {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  font-size: 36px;
+  border-bottom: 4px solid black;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+main #section_title p,
+section #section_title p {
+  margin: 0 0 30px 0;
+  letter-spacing: 1px;
+	    font-size: 15px;
+	color: #000;
+}
+main #section_title a,
+section #section_title a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+main .post,
+section .post {
+  position: relative;
+  margin-bottom: 100px;
+}
+main .post a.img_link,
+section .post a.img_link {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* z-index: 100; */
+}
+main .post.journal-new,
+section .post.journal-new {
+  float: left;
+  width: 400px;
+  height: 270px;
+  margin: 0 140px 140px 0;
+}
+main .post.journal-new:nth-of-type(2n),
+section .post.journal-new:nth-of-type(2n) {
+  margin-right: 0;
+}
+main .post.journal-new .post_details,
+section .post.journal-new .post_details {
+  position: absolute;
+  /* right: -20px; */
+  /* bottom: -50px; */
+  padding: 20px;
+  background: black;
+  color: white;
+}
+main .post.journal-new .post_details span,
+section .post.journal-new .post_details span {
+  font-family: "Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  display: block;
+}
+main .post.journal-new .post_details h3,
+section .post.journal-new .post_details h3 {
+  font-size: 18px;
+  width: 200px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+main .post.journal-new .post_details h3 a,
+section .post.journal-new .post_details h3 a {
+  color: white;
+  text-decoration: none;
+}
+/*main .post.journal-new figure,
+section .post.journal-new figure {
+  height: 100%;
+}*/
+main .post.journal-new figure img,
+section .post.journal-new figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .post.audio,
+section .post.audio,
+main .post.journal,
+section .post.journal {
+  width: 800px;
+  margin: 20px auto 120px;
+}
+main .post.audio .post_details time,
+section .post.audio .post_details time,
+main .post.journal .post_details time,
+section .post.journal .post_details time {
+  position: absolute;
+  top: 40%;
+  left: -100px;
+  text-align: center;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  font-size: 16px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+main .post.audio .post_details span,
+section .post.audio .post_details span,
+main .post.journal .post_details span,
+section .post.journal .post_details span {
+  position: absolute;
+  top: 40%;
+  right: -160px;
+  text-align: center;
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+}
+main .post.audio .post_details h3,
+section .post.audio .post_details h3,
+main .post.journal .post_details h3,
+section .post.journal .post_details h3 {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+main .post.journal figure img,
+section .post.journal figure img {
+  width: 100%;
+  height: auto !important;
+}
+main .post.journal .post_details time,
+section .post.journal .post_details time {
+  top: 44%;
+}
+main .post.journal .post_details span,
+section .post.journal .post_details span {
+  top: 45%;
+  right: -260px;
+}
+main .post.journal .post_details p,
+section .post.journal .post_details p {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+main .post.audio,
+section .post.audio {
+  width: 500px;
+}
+main .post.audio .post_details p,
+section .post.audio .post_details p {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+main .post.audio iframe,
+section .post.audio iframe {
+  width: 100%;
+}
+main .post.studio,
+section .post.studio {
+  background: black;
+}
+main .post.studio figure,
+section .post.studio figure {
+  height: 600px;
+  background: black;
+  opacity: .8;
+}
+main .post.studio figure img,
+section .post.studio figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .8;
+}
+main .post.studio a,
+section .post.studio a {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+main .post.studio .post_details,
+section .post.studio .post_details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 50px 50px 100px;
+  color: white;
+}
+main .post.studio .post_details time,
+section .post.studio .post_details time {
+  font-size: 24px;
+  word-spacing: 10px;
+}
+main .post.studio .post_details h2,
+section .post.studio .post_details h2 {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  border-bottom: 4px solid white;
+  margin: 20px 0 40px;
+}
+main .post.studio .post_details span,
+section .post.studio .post_details span {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+main #audio,
+section #audio {
+  float: left;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin-top: 120px;
+}
+main #audio .title,
+section #audio .title {
+  font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: -86px;
+  -webkit-transform: rotate(-90deg);
+  padding-top: 10px;
+  border-top: 2px solid black;
+}
+main #audio .artwork,
+section #audio .artwork {
+  background: black;
+  width: 250px;
+  margin: 0 auto;
+}
+main #audio .artwork img,
+section #audio .artwork img {
+  width: 100%;
+  opacity: .95;
+}
+main #audio .progress,
+section #audio .progress {
+  display: none;
+}
+main #audio .progress progress,
+section #audio .progress progress {
+  width: 250px;
+  height: 3px;
+  margin-top: 30px;
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+
+/* ==========================================================================
+Mobile Style
+========================================================================== */
+@media only screen and (max-width: 800px) {
+ 
+  main.journal,
+  section.journal {
+    width: 85%;
+    padding-top: 20px;
+  }
+  main.journal #section_title,
+  section.journal #section_title {
+    position: static;
+    width: auto;
+  }
+  main.journal #section_title p,
+  section.journal #section_title p {
+    display: none;
+  }
+  main.journal.home .post.journal-new,
+  section.journal.home .post.journal-new {
+    margin: 0 0 40px 0 !important;
+  }
+  main.journal h3,
+  section.journal h3 {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  main.journal .post.journal-new,
+  section.journal .post.journal-new {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0 0 40px 0 !important;
+  }
+  main.journal .post.journal-new .post_details,
+  section.journal .post.journal-new .post_details {
+    position: static;
+  }
+  main.journal .post.journal-new .post_details h3,
+  section.journal .post.journal-new .post_details h3 {
+    text-align: left;
+  }
+  main #audio,
+  section #audio {
+    width: 100%;
+    height: auto;
+    padding: 60px 0 20px;
+    margin-top: 20px;
+  }
+  main #audio .media a.play,
+  section #audio .media a.play,
+  main #audio .media a.pause,
+  section #audio .media a.pause {
+    top: 55%;
+  }
+  main #audio .artwork,
+  section #audio .artwork {
+    width: 100%;
+  }
+
+  .audio {
+    width: 85%;
+  }
+  .audio .section_title {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .audio .audio-player {
+    width: 100%;
+    height: 400px;
+  }
+  .audio .audio-player f .media a.play,
+  .audio .audio-player f .media a.pause {
+    top: 51%;
+  }
+ 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+	
