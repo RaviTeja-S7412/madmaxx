@@ -84,7 +84,7 @@
 
 
 
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
 
                                         <a href="#settings-b3" data-toggle="tab" aria-expanded="false" class="nav-link">
 
@@ -106,35 +106,7 @@
 
                                         </a>
 
-                                    </li>
-
-
-
-                                    <li class="nav-item">
-
-                                        <a href="#settings-b5" data-toggle="tab" aria-expanded="false" class="nav-link">
-
-                                            <i class="mdi mdi-settings-outline d-lg-none d-block mr-1"></i>
-
-                                            <span class="d-none d-lg-block">Subscribers Email</span>
-
-                                        </a>
-
-                                    </li>
-
-
-
-                                    <li class="nav-item">
-
-                                        <a href="#settings-b6" data-toggle="tab" aria-expanded="false" class="nav-link">
-
-                                            <i class="mdi mdi-settings-outline d-lg-none d-block mr-1"></i>
-
-                                            <span class="d-none d-lg-block">Footer Heading</span>
-
-                                        </a>
-
-                                    </li>
+                                    </li> -->
 
                                 </ul>
 
@@ -177,18 +149,19 @@
 														</div>
 
 													</div>
+													
 
-													<!-- <div class="col-md-4">
+													<div class="col-md-4">
 
 														<div class="form-group ">
 
-															<textarea name="details" class="form-control" rows="4" required><?php //echo $contact->details;?></textarea>
+															<textarea name="details" class="form-control" rows="4" required><?php echo $contact->details;?></textarea>
 
-															<label for="input6">Details</label>
+															<label for="input6">Address</label>
 
 														</div>
 
-													</div> -->
+													</div>
 
 													<div class="col-md-2">
 
@@ -272,7 +245,7 @@
 
 														<input type="text" name="linkedin" class="form-control" rows="4"  value="<?php echo $social->linkedin;?>">
 
-														<label for="input6">linkedIn</label>
+														<label for="input6">Youtube</label>
 
 													</div>
 
@@ -286,7 +259,7 @@
 
 														<span class="bar"></span>
 
-														<label for="input2">Twitter</label>
+														<label for="input2">Facebook</label>
 
 													</div>
 

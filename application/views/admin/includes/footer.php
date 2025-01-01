@@ -2,7 +2,7 @@
 </div>
     </div>
     <footer class="footer">
-		© 2020 Proxima by utsin.com
+		© 2025 MadMaxx
 	</footer>
 	<!-- ============================================================== -->
 	<!-- End footer -->

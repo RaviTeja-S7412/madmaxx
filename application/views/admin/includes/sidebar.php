@@ -30,75 +30,61 @@ $uri = $d->uri->segment(2);
                             	<span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
-                         
-
-                      <li class="sidebar-item <? echo ($uri == "menus") ? 'active' : ''; ?>">
+                        
+                        <li class="sidebar-item <? echo ($uri == "stroy") ? 'active' : ''; ?>"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/theatres" aria-expanded="false"><i class="mdi mdi-all-inclusive"></i>
+                            	<span class="hide-menu"> Theatres</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item <? echo ($uri == "blogs") ? 'active' : ''; ?>"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/blogs" aria-expanded="false"><i class="icon-tag"></i>
+                            	<span class="hide-menu">Bookings</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item <? echo ($uri == "categories") ? 'active' : ''; ?>"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/blogs/categories" aria-expanded="false"><i class="mdi mdi-language-swift"></i>
+                            	<span class="hide-menu">Gallery</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item <? echo ($uri == "solutions") ? 'active' : ''; ?>"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/solutions" aria-expanded="false"><i class=" mdi mdi-laptop-windows"></i>
+                            	<span class="hide-menu">Waitlist</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item <? echo ($uri == "menus") ? 'active' : ''; ?>">
                             <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
                                 aria-expanded="false">
                                 <i class="mdi mdi-gauge"></i>
-                                <span class="hide-menu">Menus </span>
+                                <span class="hide-menu">Services </span>
                             </a>
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item">
                                     <a href="<?php echo base_url(); ?>admin/menus" class="sidebar-link">
                                         <i class="mdi mdi-adjust"></i>
-                                        <span class="hide-menu"> Menus </span>
+                                        <span class="hide-menu"> Cakes </span>
                                     </a>
                                 </li>
                                 <li class="sidebar-item">
                                     <a href="<?php echo base_url(); ?>admin/Arrangemenu" class="sidebar-link">
                                         <i class="mdi mdi-adjust"></i>
-                                        <span class="hide-menu"> Arrange Menus </span>
+                                        <span class="hide-menu"> Decorations </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="<?php echo base_url(); ?>admin/Arrangemenu" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu">Gifts</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="<?php echo base_url(); ?>admin/Arrangemenu" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu">Speacial Services</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                        
-                        <li class="sidebar-item <? echo ($uri == "stroy") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/about/story" aria-expanded="false"><i class="mdi mdi-all-inclusive"></i>
-                            	<span class="hide-menu"> Stories</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "blogs") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/blogs" aria-expanded="false"><i class="icon-tag"></i>
-                            	<span class="hide-menu">NEWS & VIEWS</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "categories") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/blogs/categories" aria-expanded="false"><i class="mdi mdi-language-swift"></i>
-                            	<span class="hide-menu">Categories</span>
-                            </a>
-                        </li>
-                        <!--<li class="sidebar-item <? echo ($uri == "publication") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/publication" aria-expanded="false"><i class="mdi mdi-directions"></i>
-                            	<span class="hide-menu">Publications</span>
-                            </a>
-                        </li>-->
-                        <li class="sidebar-item <? echo ($uri == "solutions") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/solutions" aria-expanded="false"><i class=" mdi mdi-laptop-windows"></i>
-                            	<span class="hide-menu">Solutions</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "about") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/about" aria-expanded="false"><i class=" mdi mdi-account-switch"></i>
-                            	<span class="hide-menu">Teams</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "about") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/metadata" aria-expanded="false"><i class=" mdi mdi-account-switch"></i>
-                            	<span class="hide-menu">Meta Data</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "file_manager") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/file_manager" aria-expanded="false"><i class=" mdi mdi-laptop-windows"></i>
-                            	<span class="hide-menu">File Manager</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item <? echo ($uri == "pages") ? 'active' : ''; ?>"> 
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/pages" aria-expanded="false"><i class=" mdi mdi-laptop-windows"></i>
-                            	<span class="hide-menu">Pages</span>
-                            </a>
-                        </li>
                         <li class="sidebar-item <? echo ($uri == "settings") ? 'active' : ''; ?>"> 
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>admin/settings" aria-expanded="false"><i class="icon-settings"></i>
                             	<span class="hide-menu">Settings</span>

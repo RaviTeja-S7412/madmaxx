@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<? echo base_url() ?>assets/proxima.png">
-    <title>Proxima</title>
+    <title>MadMaxx</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/xtremeadmin/" />
     <link href="<? echo base_url() ?>assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
    <!-- Custom CSS -->
