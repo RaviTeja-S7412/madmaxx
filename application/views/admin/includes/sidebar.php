@@ -61,6 +61,12 @@ $uri = $d->uri->segment(2);
                                 <li class="sidebar-item">
                                     <a href="<?php echo base_url(); ?>admin/menus" class="sidebar-link">
                                         <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu"> Occasions </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="<?php echo base_url(); ?>admin/menus" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
                                         <span class="hide-menu"> Cakes </span>
                                     </a>
                                 </li>
